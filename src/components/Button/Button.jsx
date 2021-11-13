@@ -10,6 +10,7 @@ const Button = ({
   type = "Button",
   buttonStyle = "",
   buttonSize = "",
+  onClick,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
@@ -18,7 +19,8 @@ const Button = ({
   return (
     <button
       className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-      type={type}>
+      type={type}
+      onClick={onClick}>
       {children}
     </button>
   );

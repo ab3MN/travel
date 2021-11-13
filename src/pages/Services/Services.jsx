@@ -1,4 +1,9 @@
 import React from "react";
+import YouTubeComponent from "../../UI/YouTubeComponent";
 
-const Services = () => <h1 className='services'>SERVICES</h1>;
+const Services = () => (
+  <section className='services'>
+    <YouTubeComponent videoId='7lvXbfNBIQg' />;
+  </section>
+);
 export default Services;

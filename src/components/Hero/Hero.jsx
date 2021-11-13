@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
 import { Link } from "react-router-dom";
-
 import "./Hero.css";
 
 const Hero = () => {
@@ -22,7 +21,7 @@ const Hero = () => {
             GET STARTED
           </Button>{" "}
         </Link>
-        <Link to='//www.youtube.com/watch?v=7lvXbfNBIQg' target='_blank'>
+        <Link to='/services'>
           <Button
             type='button'
             className='btns'
